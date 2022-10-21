@@ -1,0 +1,12 @@
+html {
+    font-size: 18px;
+}
+
+body {
+    background-color: #eeee;
+}
+
+.footer {
+    background-color: #ffff;
+    padding: 20px;
+}
