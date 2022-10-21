@@ -3,10 +3,9 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Бесплатный учебник JS!</title>
+    <title>Список уроков</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-
-    <link href="style.css" rel="stylesheet">
+    <link href="../style.css" rel="stylesheet">
 </head>
 <body>
 <!-- Navbar -->
@@ -22,34 +21,33 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Главная</a>
+                    <a class="nav-link" aria-current="page" href="../index.html">Главная</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="lessons/list.html">Уроки</a>
+                    <a class="nav-link active" href="#">Уроки</a>
                 </li>
             </ul>
         </div>
     </div>
 </nav>
 
-<!-- Card -->
+<!-- List -->
 <div class="container">
     <div class="row align-items-center vh-100">
         <div class="col-12 mx-auto">
-            <div class="card">
-            <div class="row g-0">
-                <div class="col-md-4">
-                    <img src="/images/js.png" class="img-fluid rounded-start" alt="...">
-                </div>
-                <div class="col-md-8">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">JavaScript</h5>
-                        <p class="card-text">Язык программирования JavaScript придумали специально для того, чтобы создавать интерактивные сайты. Такие сайты реагируют на ваши действия: добавляют лайк, когда вы нажимаете на «сердечко», загружают новые посты в ленту, когда вы доходите до конца страницы; показывают оповещения о новом сообщении или письме. Для этого и нужен JavaScript. Сегодня это один из самых популярных и востребованных языков программирования, поэтому он пригодится каждому веб-разработчику.</p>
-                        <a href="#" class="btn btn-primary">Начать обучение</a>
-                    </div>
-                </div>
+            <h5>Основы JavaScript</h5>
+            <div class="list-group">
+                <a href="lesson_1_1.html" class="list-group-item list-group-item-action">Hello, World!</a>
+                <a href="lesson_1_2.html" class="list-group-item list-group-item-action">Комментарии</a>
+                <a href="lesson_1_3.html" class="list-group-item list-group-item-action">Инструкции</a>
             </div>
-        </div>
+            <hr>
+            <h5>Арифметика</h5>
+            <div class="list-group">
+                <a href="lesson_2_1.html" class="list-group-item list-group-item-action">Арифметические операции</a>
+                <a href="lesson_2_2.html" class="list-group-item list-group-item-action">Приоритет операций</a>
+                <a href="lesson_2_3.html" class="list-group-item list-group-item-action">Тип NaN</a>
+            </div>
         </div>
     </div>
 </div>
